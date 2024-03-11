@@ -387,7 +387,7 @@ img{
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px){
     .home{
-        row-gap: 2rem;
+        row-gap: 4rem;
 
         &__img{
             width: 200px;
