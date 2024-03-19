@@ -318,6 +318,19 @@ img {
   border-radius: 0.5rem;
 }
 
+button{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 30px;
+  width: 120px;
+  background: #ebeef1;
+  cursor: pointer;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16), -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+}
+
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
