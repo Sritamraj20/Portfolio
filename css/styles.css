@@ -209,6 +209,7 @@ img {
 .home__social {
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 }
 .home__social-icon {
   width: max-content;
