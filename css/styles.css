@@ -144,6 +144,16 @@ img {
 .nav__link:hover {
   position: relative;
 }
+.nav__link::after{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0.18rem;
+  left: 0;
+  top: 2rem;
+  background-color: var(--first-color);
+  transition: .5s ease-in-out;
+}
 .nav__link:hover::after {
   position: absolute;
   content: "";
@@ -225,7 +235,26 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  @media (max-width:480px){
+    display: none;
+  }
 }
+.home__img1{
+  @media (min-width:480px){
+    display: none;
+  }
+}
+
+.home__blob {
+  @media (max-width:480px){
+    display: none;
+  }
+}
+
+.home__secondblob{
+  fill: var(--first-color);
+}
+
 .home__blob {
   fill: var(--first-color);
 }
